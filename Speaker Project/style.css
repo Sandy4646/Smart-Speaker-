@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+
+}
+body{
+    height: 100vh;
+    background-color: #04695c;
+    color: white;
+
+}
+header{
+ display: flex;
+ justify-content: flex-end;
+ height: 15vh;
+ width: 95%;
+ align-items: center;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    font-size: 20px;
+    cursor: pointer;
+}
+header ul img{
+    height: 2.8rem;
+    cursor: pointer;
+
+}
+
+
+main{
+    height: 85vh;
+    display: flex;
+}
+main .left{
+    width: 45%;
+}
+main .left .bottom{
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+main .left{
+display: grid;
+grid-template-rows: 70%auto;
+}
+main .left .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main .left .top h1{
+    margin-left: 3rem;
+    font-size: 5rem;
+    
+}
+main .right{
+    display: grid;
+    grid-template-rows: 80% auto;
+    width: 60%;
+}
+main .right .top{
+    display: flex;
+    align-items: center;
+
+}
+main .left .top h3{
+    writing-mode: vertical-lr;
+    
+}
+main .right .top .b{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80%;
+    width: 100%;
+    align-items: center;
+}
+
+main .right .top .b h2{
+    font-size: 3rem;
+}
+main .right .top ul{
+    list-style: none;
+    font-size: 1.2rem;
+    line-height: 3rem;
+}
+
+main .right .bottom p{
+    display: flex;
+    font-size: 1.5rem;
+    width: 80%;
+    justify-content: flex-end;
+    font-weight: bold;
+    
+
+}
+.lim{
+    background-color: black;
+    color: white;
+    position: absolute;
+    padding: 1rem;
+    right: 0;
+    writing-mode: vertical-lr;
+    top: -80px; 
+}
+main .left .bottom .p {
+     font-size: 1.3rem;
+     
+}
+main .left .bottom .h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+main .right .top img{
+    height: 30rem;
+    filter: drop-shadow(15px 16px 7px rgba(175, 21, 21, 0.5));
+}
